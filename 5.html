@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt 5</title>
+</head>
+<body>
+<script>
+    let a = parseFloat(prompt("nhập điểm kt 15p"));
+    let b = parseFloat(prompt("nhập điểm kt 45p"));
+    let c = parseFloat(prompt("nhập điểm kt giữa kì"));
+    let d = parseFloat(prompt("nhập điểm kt cuối kì"));
+    let number = (a + ( b * 2) + (c * 3) + (d * 4)) / 10;
+    if (number >= 8.5){
+        alert(number +"h/s giỏi");
+    }else if (number >= 6.5){
+        alert(number + "h/s khá");
+    }else if (number >= 4.5){
+        alert(number + "h/s trung bình");
+    }else if (number >= 0){
+        alert(number +"h/s kém");
+    }else {
+        alert(number + "sai điểm");
+    }
+</script>
+</body>
+</html>
